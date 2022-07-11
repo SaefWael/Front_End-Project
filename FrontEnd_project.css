@@ -15,6 +15,7 @@
     position: fixed;
     top: 0%;
     background:rgb(255, 255, 255);
+    z-index: 1;
 }
 .navbar .navbar_Tittle {
     padding-left: 180px;
@@ -225,8 +226,7 @@
 .spread .containers_Spread .card{
     border: white solid ;
     box-shadow: 0px 0px 10px rgb(203, 203, 203) ;
-    height: fit-content;
-    
+    height: fit-content;  
 }
 .spread .containers_Spread .card .card-img-top{
     border-bottom: 5px rgb(105, 179, 239) solid;
@@ -243,6 +243,7 @@
 }
 .spread .btn_Spread {
     margin-top: 100px;
+    margin-bottom: 70px;
 }
 .spread .btn_Spread .btn_Spread_Press{
     border-radius: 20px;
@@ -250,3 +251,81 @@
 }
 /* ////////////////////////////////End of spread section////////////////////////////// */
 /* ////////////////////////////////Start of symptoms section//////////////////////////////*/
+.symptoms{
+    width: 80%;
+    margin: auto;
+    height: fit-content;
+    margin-top: 80px;
+}
+
+.symptoms .para_Symptoms{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.symptoms .para_Symptoms h5{
+   color:rgb(0, 98, 255);
+   font-weight: 500;
+}
+.symptoms .para_Symptoms h2{
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: rgb(90, 90, 90)
+}
+.symptoms .para_Symptoms p{
+    font-weight: 350;
+}
+
+.symptoms .containers_Symptoms{
+    width: 90%;
+    margin: auto;
+}
+
+.symptoms .containers_Symptoms .containers_Symptoms_One .images_One{
+    border-radius: 60%;
+    position: absolute;
+    top: 2170px;
+    right: 810px;
+    z-index: 1;
+    box-shadow: 0px 0px 10px rgb(186, 255, 141) ;     
+}
+
+.symptoms .containers_Symptoms .containers_Symptoms_Two .images_Two{
+    border-radius: 60%;
+    position: absolute;
+    top: 2170px;
+    right: 500px;
+    z-index: 1;
+    box-shadow: 0px 0px 10px rgb(186, 255, 141) ;    
+}
+
+.symptoms .containers_Symptoms .containers_Symptoms_Three .images_Three{
+    border-radius: 60%;
+    position: absolute;
+    top: 2170px;
+    right: 190px;
+    z-index: 1;
+    box-shadow: 0px 0px 10px rgb(186, 255, 141) ;     
+}
+
+
+.symptoms .containers_Symptoms .card{
+    border: white solid ;
+    box-shadow: 0px 0px 10px rgb(203, 203, 203) ;
+    height: fit-content;  
+}
+
+.symptoms .containers_Symptoms .card .card-body .card-title{
+    color:rgb(0, 98, 255) ;
+    font-size: 17px;
+}
+
+.symptoms .containers_Symptoms .card .card-body .card-text{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.symptoms .containers_Symptoms .card .card-body .card-text span{
+    font-weight: bolder;
+}
