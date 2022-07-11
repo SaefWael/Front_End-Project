@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <a class="btn_GoUp" href="#hena"><i class="fa-solid fa-circle-arrow-up"></i></a> 
+    <!-- <a class="btn_Navigate" href=""><i class="fa-solid fa-circle-arrow-up"></i></a> -->
     <!-- ////////////////////////////////Start of navbar section////////////////////////////// -->
     <div class="navbar row">
         <div class="navbar_Tittle col-3 mt-3">
@@ -33,7 +35,7 @@
     </div>
     <!-- ////////////////////////////////End of navbar section//////////////////////////////// -->
     <!-- ////////////////////////////////Start of header section////////////////////////////// -->
-    <div class="background">
+    <div class="background" id="hena">
         <div class="header row">
             <div class="introduction col-6">
                 <div class="logo_Corona row">
@@ -100,16 +102,17 @@
             <h2>TRANSMISSION OF COVID-19</h2>
             <p>Beacause it's a new illness, we do not know exactly gow coronavirus spreads from person to person. Similar viruses are spread in cough droplets</p>
         </div>
-        <div class="containers_Spread" id="app">
-            <cards image="../../../Frontend/imgs/spread-a.png" title="Person-to-person spread as close contact with infected" paragraph="The coronavirus is thought to spread mainly from person to person. This can happen between people who are in close contact with one another"></cards>
-            <cards image="../../../Frontend/imgs/spread-b.png" title="Touching or contact with infected surfaces or objects" paragraph="A person can get COVID-19 by touching a surface or object that has the virus on it and then touching their own mouth, nose, or possibly their eye"></cards>
-            <cards image="../../../Frontend/imgs/spread-c.png" title="Droplets that from person coughs or sneezes" paragraph="The coronavirus is thought to spread mainly from person to person. This can happen between people who are in close contact with one another"></cards>
+        <div class="containers_Spread mt-5 d-flex justify-content-between" id="app">
+            <cards class="" image="../../../Frontend/imgs/spread-a.png" title="Person-to-person spread as close contact with infected" paragraph="The coronavirus is thought to spread mainly from person to person. This can happen between people who are in close contact with one another"></cards>
+            <cards class="" image="../../../Frontend/imgs/spread-b.png" title="Touching or contact with infected surfaces or objects" paragraph="A person can get COVID-19 by touching a surface or object that has the virus on it and then touching their own mouth, nose, or possibly their eye"></cards>
+            <cards class="" image="../../../Frontend/imgs/spread-c.png" title="Droplets that from person coughs or sneezes" paragraph="The coronavirus is thought to spread mainly from person to person. This can happen between people who are in close contact with one another"></cards>
         </div>
-        <div class="btn_Spread">
-
+        <div class="btn_Spread d-flex justify-content-center">
+            <button class="btn-primary btn_Spread_Press px-3 py-1"><i class="fa-regular fa-circle-question"></i><span class="px-4">Have question about spreading?</span></button>
         </div>
     </div>
-
+    <!-- ////////////////////////////////End of spread section////////////////////////////// -->
+    <!-- ////////////////////////////////Start of symptoms section////////////////////////////// --> 
 
 
 
