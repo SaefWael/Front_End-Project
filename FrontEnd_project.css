@@ -2,6 +2,12 @@
     padding: 0%;
     margin: 0%;
 }
+.btn_GoUp{
+    position: fixed;
+    bottom: 0%;
+    right: 8%;
+    font-size: 35px;
+}
 /* ////////////////////////////////Start of navbar section////////////////////////////// */
 .navbar {
     width: 100%;
@@ -47,7 +53,6 @@
     font-size: 15px;
 }
 /* ////////////////////////////////End of navbar section////////////////////////////// */
-
 /* ////////////////////////////////Start of header section////////////////////////////// */
 .background {
     background: url('../../../Frontend/imgs/shape-a.png');
@@ -213,18 +218,35 @@
     font-weight: 350;
 }
 
+.spread .containers_Spread{
+    width: 90%;
+    margin: auto;
+}
 .spread .containers_Spread .card{
-
+    border: white solid ;
+    box-shadow: 0px 0px 10px rgb(203, 203, 203) ;
+    height: fit-content;
     
 }
 .spread .containers_Spread .card .card-img-top{
-
+    border-bottom: 5px rgb(105, 179, 239) solid;
 }
 
 .spread .containers_Spread .card .card-body .card-title{
-    
+    color:rgb(0, 98, 255) ;
+    font-size: 17px;
 }
 
 .spread .containers_Spread .card .card-body .card-text{
-
+    font-size: 14px;
+    line-height: 1.5;
 }
+.spread .btn_Spread {
+    margin-top: 100px;
+}
+.spread .btn_Spread .btn_Spread_Press{
+    border-radius: 20px;
+    font-weight: 600;
+}
+/* ////////////////////////////////End of spread section////////////////////////////// */
+/* ////////////////////////////////Start of symptoms section//////////////////////////////*/
