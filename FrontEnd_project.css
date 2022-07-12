@@ -490,7 +490,7 @@
     width: 80%;
     margin: auto;
     height: fit-content;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
 }
 
 .steps .para_Steps{
@@ -514,7 +514,7 @@
 }
 
 .steps .container_Steps {
-    width: 95%;
+    width: 90%;
     margin: auto;
 }
 
@@ -537,4 +537,66 @@
 }
 
 /* ////////////////////////////////End of steps section////////////////////////////// */
-/* ////////////////////////////////Start of  section//////////////////////////////*/
+/* ////////////////////////////////Start of treatment section//////////////////////////////*/
+
+.background_Treatment{
+    background: rgb(38, 134, 237);
+    height: 100vh;
+}
+
+.background_Treatment .back_Treatment{
+    background: url('../../../Frontend/imgs/shape-a.png');
+    height: 100vh;
+}
+
+.background_Treatment .back_Treatment .treatment{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.background_Treatment .back_Treatment .treatment .left_Treatment h5{
+    color: rgb(2, 239, 239);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.background_Treatment .back_Treatment .treatment .left_Treatment h2{
+    color: white;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.background_Treatment .back_Treatment .treatment .left_Treatment p{
+    color: white;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.background_Treatment .back_Treatment .treatment .left_Treatment p span{
+    font-weight: bold;
+}
+
+.background_Treatment .back_Treatment .treatment .right_Treatment{
+    background: rgb(23, 105, 193);
+    height: fit-content;
+    line-height: 1.2;
+    color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+    height: fit-content;
+    border-radius: 5px;
+}
+
+.background_Treatment .back_Treatment .treatment .right_Treatment h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.background_Treatment .back_Treatment .treatment .right_Treatment p{
+    font-size:14px ;
+    line-height: 1.15;
+    font-weight: 400;
+}
+/* ////////////////////////////////End of treatment section////////////////////////////// */
+/* ////////////////////////////////Start of section//////////////////////////////*/
