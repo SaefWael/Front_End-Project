@@ -1,3 +1,4 @@
+//////////////////////////////Start of first vue component/////////////////////////////////
 Vue.component ('cards', {
     props:['image','title', 'paragraph'],
     template: `
@@ -17,7 +18,8 @@ new Vue ({
         message: 'welcome',
     }
 })
-
+//////////////////////////////End of first vue component/////////////////////////////////
+//////////////////////////////Start of Second vue component/////////////////////////////////
 Vue.component ('cardss', {
     props:['title','bold','paragraph'],
     template: `
@@ -35,5 +37,24 @@ new Vue ({
         message: 'welcome',
     }
 })
+//////////////////////////////End of Second vue component/////////////////////////////////
+//////////////////////////////Start of Third vue component/////////////////////////////////
 
+Vue.component ('cardssa', {
+    props:['title','src'],
+    template: `
+    <div class="container_Steps_Cards">
+        <img :src="src" alt="" width="90" height="90">
+        <p>{{ title }}</p>
+    </div>
+    `,
+});
 
+new Vue ({
+    el: '#appsa',
+    data: {
+        message: 'welcome',
+    }
+})
+
+//////////////////////////////End of Third vue component/////////////////////////////////
