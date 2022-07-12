@@ -354,5 +354,88 @@
 .symptoms .formore_Symptoms .formore_Symptoms_Right button{
     border-radius: 20px;
     font-weight: 600;
-    
 }
+/* ////////////////////////////////End of symptoms section////////////////////////////// */
+/* ////////////////////////////////Start of prevention section//////////////////////////////*/
+.prevention{
+    width: 90%;
+    margin: auto;
+    height: fit-content;
+    margin-top: 80px;
+}
+
+.prevention .para_Prevention {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.prevention .para_Prevention h5{
+    color:rgb(0, 98, 255);
+    font-weight: 500;
+    padding-top: 60px;
+}
+
+.prevention .para_Prevention h2{
+    font-weight: 700;
+    color: rgb(90, 90, 90);
+    padding-bottom: 15px;
+}
+
+.prevention .para_Prevention p{
+    font-weight: 350;
+    line-height: 1.3;
+}
+
+.prevention .para_Prevention p span{
+    font-weight: bolder;
+}
+
+.prevention .container_Prevention{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 100px; 
+}
+.prevention .container_Prevention .container_Prevention_Cards{
+    width: 20%;
+    text-align: center;
+}
+
+.prevention .container_Prevention .container_Prevention_Cards h5{
+    font-size: 14px;
+    font-weight: 700;
+}
+.prevention .container_Prevention .container_Prevention_Cards p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.prevention .container_Prevention .container_Prevention_Cards img{
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgb(203, 203, 203) ;
+}
+
+.prevention .btn_Prevention{
+    width: 47%;
+    margin: auto;
+}
+
+.prevention .btn_Prevention .btn_Prevention_Left{
+    border-radius: 20px;
+    border: transparent;
+    color: white;
+    font-weight: 500;
+}
+
+.prevention .btn_Prevention .btn_Prevention_Right{
+    border-radius: 20px;
+    border: transparent;
+    background: transparent;
+    color: blue;
+    font-weight: 500;
+}
+
+/* ////////////////////////////////End of prevention section////////////////////////////// */
+/* ////////////////////////////////Start of Tips section//////////////////////////////*/
