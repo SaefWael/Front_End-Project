@@ -175,8 +175,6 @@ if (button6) {
     })
 }
 
-
-
 //////////////////////////////End of FAQ Javascript Code/////////////////////////////////
 //////////////////////////////start of update cards component/////////////////////////////////
 
@@ -201,3 +199,24 @@ new Vue ({
 })
 
 //////////////////////////////end of update cards component/////////////////////////////////
+//////////////////////////////start of scrolling navbar js/////////////////////////////////
+
+const sections = document.querySelectorAll('section')
+const navLi = document.querySelectorAll('.navbar .navbar_List ul li')
+
+window.addEventListener('scroll', () =>{
+    let current = '';
+    
+    sections.forEach( section => {
+        const sectionTop = section.offsetTop;
+        if(pageYOffset >= sectionTop){
+            current = section.getAttribute('id');
+        }
+    })
+    navLi.forEach (li => {
+        li.classList.remove('active_Home');
+        if(li.classList.contains(current)){
+            li.classList.add('active_Home');
+        }
+    })
+})
