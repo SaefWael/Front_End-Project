@@ -149,3 +149,17 @@ if (button6) {
         content4.classList.remove('active_FAQ')
     })
 }
+
+if (button1) {
+    button1.addEventListener('click', function(){
+        content6.classList.remove('active_FAQ')
+        content6.classList.add('hidden_FAQ')
+        content1.classList.remove('hidden_FAQ')
+        content2.classList.remove('active_FAQ')
+        content3.classList.remove('active_FAQ')
+        content4.classList.remove('active_FAQ')
+        content5.classList.remove('active_FAQ')
+    })
+}
+
+//////////////////////////////End of FAQ Javascript Code/////////////////////////////////
