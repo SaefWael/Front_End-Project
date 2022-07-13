@@ -17,6 +17,12 @@
     background:rgb(255, 255, 255);
     z-index: 1;
 }
+
+.active_Home{
+    background-color: blue;
+    transition: 0.3 ease background-color;
+    border-radius: 5px;
+}
 .navbar .navbar_Tittle {
     padding-left: 180px;
 }
