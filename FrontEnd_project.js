@@ -178,3 +178,26 @@ if (button6) {
 
 
 //////////////////////////////End of FAQ Javascript Code/////////////////////////////////
+//////////////////////////////start of update cards component/////////////////////////////////
+
+Vue.component ('upcards', {
+    props:['image','title', 'paragraph'],
+    template: `
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top pt-3" :src="image" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{ title }}</h5>
+            <p class="card-text">{{ paragraph }}</p>
+        </div>
+    </div>
+  `,
+});
+
+new Vue ({
+    el: '#upapp',
+    data: {
+        message: 'welcome',
+    }
+})
+
+//////////////////////////////end of update cards component/////////////////////////////////
