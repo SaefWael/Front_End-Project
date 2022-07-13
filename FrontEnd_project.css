@@ -725,6 +725,7 @@
     margin: auto;
     background: transparent;
     border: rgb(215, 215, 215) solid 1px;
+    border-radius: 3px;
  }
 
  .faq .big_Faq .buttons_Faq button span{
