@@ -693,4 +693,54 @@
 }
 
 /* ////////////////////////////////End of Do & Dont's section////////////////////////////// */
-/* ////////////////////////////////Start of  section//////////////////////////////*/
+/* ////////////////////////////////Start of FAQ section//////////////////////////////*/
+
+.faq .para_Faq{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 90px;
+}
+.faq .para_Faq h5{
+    color: rgb(0, 98, 255);
+    font-weight: 600;
+ }
+
+ .faq .para_Faq h2{
+    font-weight: 700;
+    font-size: 35px;
+ }
+
+ .faq .big_Faq {
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+ }
+
+ .faq .big_Faq .buttons_Faq {
+    height: 53vh;
+ }
+ .faq .big_Faq .buttons_Faq button{
+    width: 80%;
+    margin: auto;
+    background: transparent;
+    border: rgb(215, 215, 215) solid 1px;
+ }
+
+ .faq .big_Faq .buttons_Faq button span{
+    font-weight: 400;
+ }
+
+ .faq .big_Faq .buttons_Faq button:hover{
+    border: rgb(12, 50, 132) solid 2px;
+    cursor: pointer;
+ }
+
+ .active_FAQ{
+    display: inline-block;
+ }
+
+ .hidden_FAQ{
+    display: none;
+ }
+
