@@ -209,7 +209,8 @@ window.addEventListener('scroll', () =>{
     
     sections.forEach( section => {
         const sectionTop = section.offsetTop;
-        if(pageYOffset >= sectionTop){
+        const sectionHeight = section.clientHeight;
+        if(pageYOffset >= (sectionTop - sectionHeight / 3)){
             current = section.getAttribute('id');
         }
     })
@@ -220,3 +221,5 @@ window.addEventListener('scroll', () =>{
         }
     })
 })
+
+///////////////////////////////the end//////////////////////////////////////////////////////////////////////////////
