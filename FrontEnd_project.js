@@ -58,3 +58,94 @@ new Vue ({
 })
 
 //////////////////////////////End of Third vue component/////////////////////////////////
+//////////////////////////////Start of FAQ Javascript Code/////////////////////////////////
+
+const button1= document.getElementById('button_One')
+const button2= document.getElementById('button_Two')
+const button3= document.getElementById('button_Three')
+const button4= document.getElementById('button_Four')
+const button5= document.getElementById('button_Five')
+const button6= document.getElementById('button_Six')
+const content1= document.getElementById('content_One')
+const content2= document.getElementById('content_Two')
+const content3= document.getElementById('content_Three')
+const content4= document.getElementById('content_Four')
+const content5= document.getElementById('content_Five')
+const content6= document.getElementById('content_Six')
+
+
+if (button1) {
+    button1.addEventListener('click', function(){
+        content2.classList.add('hidden_FAQ')
+        content3.classList.add('hidden_FAQ')
+        content4.classList.add('hidden_FAQ')
+        content5.classList.add('hidden_FAQ')
+        content6.classList.add('hidden_FAQ')
+        content2.classList.add('active_FAQ')
+        content3.classList.add('active_FAQ')
+        content4.classList.add('active_FAQ')
+        content5.classList.add('active_FAQ')
+        content6.classList.add('active_FAQ')
+        content1.classList.add('active_FAQ')
+    })
+}
+
+if (button2) {
+    button2.addEventListener('click', function(){
+        content1.classList.remove('active_FAQ')
+        content1.classList.add('hidden_FAQ')
+        content2.classList.remove('hidden_FAQ')
+        content3.classList.remove('active_FAQ')
+        content4.classList.remove('active_FAQ')
+        content5.classList.remove('active_FAQ')
+        content6.classList.remove('active_FAQ')
+    })
+}
+
+if (button3) {
+    button3.addEventListener('click', function(){
+        content2.classList.remove('active_FAQ')
+        content2.classList.add('hidden_FAQ')
+        content3.classList.remove('hidden_FAQ')
+        content1.classList.remove('active_FAQ')
+        content4.classList.remove('active_FAQ')
+        content5.classList.remove('active_FAQ')
+        content6.classList.remove('active_FAQ')
+    })
+}
+
+if (button4) {
+    button4.addEventListener('click', function(){
+        content3.classList.remove('active_FAQ')
+        content3.classList.add('hidden_FAQ')
+        content4.classList.remove('hidden_FAQ')
+        content1.classList.remove('active_FAQ')
+        content2.classList.remove('active_FAQ')
+        content5.classList.remove('active_FAQ')
+        content6.classList.remove('active_FAQ')
+    })
+}
+
+if (button5) {
+    button5.addEventListener('click', function(){
+        content4.classList.remove('active_FAQ')
+        content4.classList.add('hidden_FAQ')
+        content5.classList.remove('hidden_FAQ')
+        content1.classList.remove('active_FAQ')
+        content2.classList.remove('active_FAQ')
+        content3.classList.remove('active_FAQ')
+        content6.classList.remove('active_FAQ')
+    })
+}
+
+if (button6) {
+    button6.addEventListener('click', function(){
+        content5.classList.remove('active_FAQ')
+        content5.classList.add('hidden_FAQ')
+        content6.classList.remove('hidden_FAQ')
+        content1.classList.remove('active_FAQ')
+        content2.classList.remove('active_FAQ')
+        content3.classList.remove('active_FAQ')
+        content4.classList.remove('active_FAQ')
+    })
+}
