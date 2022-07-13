@@ -793,7 +793,7 @@
 }
 
 .cards_Update .card{
-    height: fit-content;
+    height: 65vh;
     border: white;
     box-shadow: 0px 0px 10px rgb(203, 203, 203)
 }
